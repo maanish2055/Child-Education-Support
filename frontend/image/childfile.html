@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+html{
+    font-size:10px;
+    font-family:"Roboto", sans-serif;
+}
+a{
+    text-decoration:none;
+    color:white;
+
+}
+section{
+    padding:15rem 0;
+    background-color:burlywood;
+
+}
+.container{
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-between;
+}
+.heading{
+    text-transform:uppercase;
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+    margin-right: -3px;
+    margin-bottom: 5rem;
+    text-align: center;
+    color:#333;
+    position:relative;
+}
+.heading::after{
+    content: "";
+    width: 10rem;
+    height:.8rem;
+    background-color: blue;
+    position:absolute;
+    bottom: -2rem; 
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2rem;
+
+
+}
+.card-wrapper{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction:row;
+    border:2px;
+}
+.card{
+    width: 32rem;
+    background-color: brown;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:2rem 0;
+    box-shadow: .5rem .5rem 3rem rgba(0,0,0,0.2);
+    border-radius: 20px;
+}
+ 
+.profile-img{
+    width:15rem;
+    height:15rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top:-11rem;
+    z-index: 999;
+    border: 1rem solid #ebeef8;
+
+}
+.card h1{
+    color: #333;
+    font-size: 2.5rem;
+    margin: 1.5rem 0;
+}
+.card h3{
+    color: #777;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.about{
+    font-size:1.5rem;
+    margin: 1.5rem 0;
+    font-style:italic;
+    text-align: center;
+    color: #333;
+
+}
+.card .btn{
+    padding: 1rem 2.5rem;
+    background-color: #445ae3;
+    border-radius: 2rem;
+    margin: 1rem 0;
+    text-transform: uppercase;
+    color: #eee;
+    font-size: 1.4rem;
+}
+.card .btn:hover{
+    transform: translateY(-2px);
+    box-shadow: .5rem .5rem 2rem rgba(0,0,0,0.2);
+}
+
+.card .btn:active{
+    transform: translateY(0);
+    box-shadow: none
+}
+
+
+</style>
+
+</head>
+<body>
+
+    <h3 class="heading"> list of child</h3>
+<section>
+<div class="container">
+    <div class="card-wrapper">
+        <div class="card">
+        <img src="3.jpg.jpg" alt=" child-image" class="profile-img">
+        <h1>child 1</h1>
+        <h3>city<br>year</h3>
+        <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque error adipisci, autem iste, sit, molestiae dignissimos sint magni quia quae fugiat omnis qui id illum. Natus aut consectetur enim minus.</p>
+        <a href="#" class="btn">about child1</a>
+
+        </div>
+    
+    </div>
+
+    <div class="card-wrapper">
+        <div class="card">
+        <img src="4.jpg.jpg" alt=" child-image" class="profile-img">
+        <h1>child 2</h1>
+        <h3>city<br>year</h3>
+        <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque error adipisci, autem iste, sit, molestiae dignissimos sint magni quia quae fugiat omnis qui id illum. Natus aut consectetur enim minus.</p>
+        <a href="#" class="btn">about child2</a>
+
+        </div>
+    
+    </div>
+
+    <div class="card-wrapper">
+        <div class="card">
+        <img src="6.jpg.jpg" alt=" child-image" class="profile-img">
+        <h1>child 3</h1>
+        <h3>city<br>year</h3>
+        <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque error adipisci, autem iste, sit, molestiae dignissimos sint magni quia quae fugiat omnis qui id illum. Natus aut consectetur enim minus.</p>
+        <a href="#" class="btn">about child3</a>
+
+        </div>
+    
+    </div>
+
+    
+    <div class="card-wrapper">
+        <div class="card">
+        <img src="6.jpg.jpg" alt=" child-image" class="profile-img">
+        <h1>child 3</h1>
+        <h3>city<br>year</h3>
+        <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque error adipisci, autem iste, sit, molestiae dignissimos sint magni quia quae fugiat omnis qui id illum. Natus aut consectetur enim minus.</p>
+        <a href="#" class="btn">about child3</a>
+
+        </div>
+    
+    </div>
+
+    
+    <div class="card-wrapper">
+        <div class="card">
+        <img src="6.jpg.jpg" alt=" child-image" class="profile-img">
+        <h1>child 3</h1>
+        <h3>city<br>year</h3>
+        <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque error adipisci, autem iste, sit, molestiae dignissimos sint magni quia quae fugiat omnis qui id illum. Natus aut consectetur enim minus.</p>
+        <a href="#" class="btn">about child3</a>
+
+        </div>
+    
+    </div>
+
+    
+    <div class="card-wrapper">
+        <div class="card">
+        <img src="6.jpg.jpg" alt=" child-image" class="profile-img">
+        <h1>child 3</h1>
+        <h3>city<br>year</h3>
+        <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque error adipisci, autem iste, sit, molestiae dignissimos sint magni quia quae fugiat omnis qui id illum. Natus aut consectetur enim minus.</p>
+        <a href="#" class="btn">about child3</a>
+
+        </div>
+    
+    </div>
+
+    
+    <div class="card-wrapper">
+        <div class="card">
+        <img src="6.jpg.jpg" alt=" child-image" class="profile-img">
+        <h1>child 3</h1>
+        <h3>city<br>year</h3>
+        <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque error adipisci, autem iste, sit, molestiae dignissimos sint magni quia quae fugiat omnis qui id illum. Natus aut consectetur enim minus.</p>
+        <a href="#" class="btn">about child3</a>
+
+        </div>
+    
+    </div>
+    </div>
+    
+    </section>    
+</body>
+</html>
+
